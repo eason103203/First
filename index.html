@@ -17,7 +17,7 @@
   <link rel="shortcut icon" href="upload/p99/favicon.ico" />
   <link rel="bookmark" href="upload/p99/favicon.ico" />
 
-  <title>久久百貨批發</title>
+  <title>久久百貨批發-第二版</title>
 
   <!-- Bootstrap core CSS -->
   <link href="assets/bootstrap.min.css" rel="stylesheet">
@@ -301,22 +301,19 @@
   </script>
 
   <script type="text/javascript">
-        <!-
-        function checkSearchForm()
-        {
-            if(!document.getElementById('keyword').value)
-            {
-                alert("請輸入搜尋關鍵字！");
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+        < !-
+      function checkSearchForm() {
+        if (!document.getElementById('keyword').value) {
+          alert("請輸入搜尋關鍵字！");
+          return false;
         }
-         ->
+        else {
+          return true;
+        }
+      }
+      ->
   </script>
-    <!-- Page Content -->
+  <!-- Page Content -->
   <div class="container">
 
     <div class="row">
@@ -1700,30 +1697,30 @@
   <button type="button" id="BackCart" class="BackCart-arrow" onclick="location.href='?act=cart'"></button>
   <button type="button" id="BackTop" class="toTop-arrow"></button>
   <script>
-        $(function () {
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 300) {
-                    $('#BackCart').fadeIn(222);
-                } else {
-                    $('#BackCart').stop().fadeOut(222);
-                }
-            }).scroll();
-        });
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 300) {
+            $('#BackCart').fadeIn(222);
+          } else {
+            $('#BackCart').stop().fadeOut(222);
+          }
+        }).scroll();
+      });
   </script>
 
   <script>
-        $(function () {
-            $('#BackTop').click(function () {
-                $('html,body').animate({ scrollTop: 0 }, 333);
-            });
-            $(window).scroll(function () {
-                if ($(this).scrollTop() > 300) {
-                    $('#BackTop').fadeIn(222);
-                } else {
-                    $('#BackTop').stop().fadeOut(222);
-                }
-            }).scroll();
-        });
+    $(function () {
+      $('#BackTop').click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 333);
+      });
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 300) {
+          $('#BackTop').fadeIn(222);
+        } else {
+          $('#BackTop').stop().fadeOut(222);
+        }
+      }).scroll();
+    });
   </script>
 
 
